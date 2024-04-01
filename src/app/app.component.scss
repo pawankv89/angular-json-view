@@ -1,0 +1,27 @@
+pre {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  :host ::ng-deep {
+    .json-key {
+      color: #4e187c;
+    }
+    .json-value {
+      color: #b938a4;
+    }
+    .json-value-null {
+      color: #fff;
+      background-color: red;
+    }
+    .json-value-number {
+      color: #009688;
+    }
+    .json-string {
+      color: #ff6b6b;
+    }
+  }
+  
